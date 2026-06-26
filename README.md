@@ -1,5 +1,7 @@
 Demo
 一个轻量级 Spring Boot 实战项目，覆盖 MVC、依赖注入、事务、AOP、拦截器、MyBatis、MySQL 索引、Redis 缓存、Redisson 分布式锁、RocketMQ 消息队列等核心知识点.
+
+
 Spring MVC	OrderController 使用 @RestController、@PostMapping 处理 HTTP 请求
 依赖注入	OrderServiceImpl 通过 @RequiredArgsConstructor 构造器注入 Mapper、RedissonClient、RocketMQTemplate 等
 声明式事务	createOrder 方法上的 @Transactional，保证扣库存与下单原子性
